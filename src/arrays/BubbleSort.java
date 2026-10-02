@@ -1,5 +1,7 @@
 package arrays;
 
+import java.util.Arrays;
+
 public class BubbleSort {
 
     public static void main(String[] args) {
@@ -18,10 +20,7 @@ public class BubbleSort {
             }
         }
 
-        System.out.print("Sorted Array : ");
-        for (int z = 0; z < n; z++) {
-            System.out.print(my_array[z] + " ");
-        }
+        System.out.println(Arrays.toString(my_array));
     }
 
 }
