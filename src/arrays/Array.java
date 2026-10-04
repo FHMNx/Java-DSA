@@ -7,11 +7,11 @@ public class Array {
         int minValue = my_array[0];
 
         for (int x : my_array) {
-            if(x < minValue){
+            if (x < minValue) {
                 minValue = x;
             }
         }
-        
+
         System.out.println("Lowest value: " + minValue);
     }
 }
