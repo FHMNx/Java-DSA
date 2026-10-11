@@ -3,13 +3,11 @@
 // You must write an algorithm with O(log n) runtime complexity.
 package leetcode.arrays;
 
-import java.util.Scanner;
-
 public class BinarySearch_704 {
 
     public int search(int[] nums, int target) {
         int lowerBound = 0;
-        int upperBound = nums.length;
+        int upperBound = nums.length - 1;
 
         while (lowerBound <= upperBound) {
             int mid = (lowerBound + upperBound) / 2;
