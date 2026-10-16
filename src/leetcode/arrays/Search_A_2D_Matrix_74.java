@@ -15,14 +15,14 @@ public class Search_A_2D_Matrix_74 {
             return false;
         }
 
-        int rows = matrix.length;
-        int columns = matrix[0].length;
+        int rows = matrix.length; //3 rows
+        int columns = matrix[0].length; // 4 columns
 
-        int lowerBound = 0;
-        int upperBound = rows * columns - 1;
+        int lowerBound = 0; //0
+        int upperBound = rows * columns - 1; //11
 
         while (lowerBound <= upperBound) {
-            int mid = lowerBound + (upperBound - lowerBound) / 2;
+            int mid = lowerBound + (upperBound - lowerBound) / 2;  //5
             int row = mid / columns;
             int column = mid % columns;
 
