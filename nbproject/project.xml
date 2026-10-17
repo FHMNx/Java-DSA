@@ -10,6 +10,7 @@
             <test-roots/>
         </data>
         <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>bool</word>
             <word>nums</word>
             <word>runtime</word>
         </spellchecker-wordlist>
