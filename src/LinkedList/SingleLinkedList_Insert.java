@@ -60,9 +60,10 @@ class LinkedList {
 
         for (int i = 0; i < position - 1; i++) {
             temp = temp.next;
-            n.next = temp.next;
-            temp.next = n;
+
         }
+        n.next = temp.next;
+        temp.next = n;
     }
 
 }
